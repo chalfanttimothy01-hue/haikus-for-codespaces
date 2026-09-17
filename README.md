@@ -7,3 +7,644 @@ Point your browser to [Quickstart for GitHub Codespaces](https://docs.github.com
 .index.html
 - styles.css
 - script.js
+# AI - Artificial Intelligence
+
+These are _"Narrow AI"_ - specialized for specific tasks only.
+
+AGI - _"Artificial General Intelligence"_ - mirroring everything humans can do - is not real yet.
+
+<!-- INDEX_START -->
+
+- [AI Discovery](#ai-discovery)
+- [Learning](#learning)
+- [OpenClaw](#openclaw)
+- [Run AI with API](#run-ai-with-api)
+- [Chat LLMs](#chat-llms)
+  - [ChatGPT](#chatgpt)
+  - [Deepseek](#deepseek)
+  - [Grok](#grok)
+  - [Claude](#claude)
+  - [Google Gemini](#google-gemini)
+    - [Google AI Studio - Gemini](#google-ai-studio---gemini)
+  - [Meta AI](#meta-ai)
+  - [Venice AI](#venice-ai)
+  - [Perplexity](#perplexity)
+  - [Abacus AI](#abacus-ai)
+  - [SQL Chat](#sql-chat)
+  - [Open Source LLMs](#open-source-llms)
+    - [Ollama](#ollama)
+- [Chat LLM Tips](#chat-llm-tips)
+  - [Features & Differences](#features--differences)
+  - [Few Shot Prompt](#few-shot-prompt)
+  - [Reliability](#reliability)
+  - [Safety](#safety)
+  - [Current Knowledge - Internet Search](#current-knowledge---internet-search)
+  - [Context Windows](#context-windows)
+  - [Thinking vs Non-Thinking Models](#thinking-vs-non-thinking-models)
+  - [Memory](#memory)
+  - [Custom Global Instructions](#custom-global-instructions)
+  - [Custom GPT](#custom-gpt)
+    - [Custom Translator](#custom-translator)
+  - [Tool Use](#tool-use)
+  - [Audio Querying](#audio-querying)
+  - [Image Querying](#image-querying)
+  - [Video Querying](#video-querying)
+- [Text to Speech](#text-to-speech)
+- [Speech to Text](#speech-to-text)
+  - [Wordly.ai](#wordlyai)
+  - [Otter.ai](#otterai)
+  - [Plaud.ai](#plaudai)
+  - [Whisper Apps](#whisper-apps)
+  - [OpenAI Whisper](#openai-whisper)
+    - [OpenAI Whisper Install](#openai-whisper-install)
+    - [OpenAI Whisper Run CLI](#openai-whisper-run-cli)
+    - [OpenAI Whisper Run from Python](#openai-whisper-run-from-python)
+- [Grammar](#grammar)
+- [Visual](#visual)
+  - [Image](#image)
+  - [Video](#video)
+    - [Video Clipping](#video-clipping)
+    - [Video Generation](#video-generation)
+    - [Search Inside Video](#search-inside-video)
+  - [Presentation](#presentation)
+    - [Gamma](#gamma)
+- [UI](#ui)
+- [App Generation](#app-generation)
+- [Coding](#coding)
+- [RAG - Retrieval Augmented Generation](#rag---retrieval-augmented-generation)
+- [Character Generation](#character-generation)
+- [Debugging](#debugging)
+- [Job Search](#job-search)
+- [List of AI Tools By Categories](#list-of-ai-tools-by-categories)
+- [Memes](#memes)
+  - [LLM - How to Plagiarize Like a Pro](#llm---how-to-plagiarize-like-a-pro)
+  - [Building AI to Replace Humans](#building-ai-to-replace-humans)
+  - [Fewer Devs, Fewer Managers](#fewer-devs-fewer-managers)
+- [Copying and Pasting from ChatGPT](#copying-and-pasting-from-chatgpt)
+  - [Say Powered by AI One More Time](#say-powered-by-ai-one-more-time)
+  - [Coding with GPT](#coding-with-gpt)
+  - [My Code Stack Overflow, ChatGPT](#my-code-stack-overflow-chatgpt)
+  - [Speak Softly in House](#speak-softly-in-house)
+  - [Chuck Norris](#chuck-norris)
+  - [Your Future Doctor is using ChatGPT to Pass Exams](#your-future-doctor-is-using-chatgpt-to-pass-exams)
+  - [I'm a Programmer](#im-a-programmer)
+  - [AI Finger Hack - Inadmissable Evidence](#ai-finger-hack---inadmissable-evidence)
+  - [Sales Guys wants to use Blockchain & AI](#sales-guys-wants-to-use-blockchain--ai)
+  - [Vibe Coding is Easy](#vibe-coding-is-easy)
+  - [Guys Who Thank ChatGPT](#guys-who-thank-chatgpt)
+  - [ChatGPT vs Learning Data Structure and Algorithms](#chatgpt-vs-learning-data-structure-and-algorithms)
+  - [AI vs Jobs](#ai-vs-jobs)
+  - [Trying to Keep Up With AI News](#trying-to-keep-up-with-ai-news)
+
+<!-- INDEX_END -->
+
+## AI Discovery
+
+Find the AI tools you need for any specific purpose:
+
+- [TopAITools](https://topai.tools/)
+- [TheresAnAIForThat](https://theresanaiforthat.com/)
+
+## Learning
+
+<https://www.cloudskillsboost.google/paths/118>
+
+## OpenClaw
+
+<https://openclaw.ai/>
+
+Open source local agent that can do most of the things you do for you on your computer with access to all your stuff.
+
+Interact with it via any chat app.
+
+## Run AI with API
+
+- [Replicate](https://replicate.com/)
+
+## Chat LLMs
+
+The various leading LLMs have different strengths and weaknesses.
+
+You are advised to pose the same prompt to several of them to see the difference in their responses.
+
+### ChatGPT
+
+<https://chat.openai.com/chat>
+
+[:octocat: Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
+
+By OpenAI, not open, closed source, but the first public LLM.
+
+[OpenAI Cookbook](https://cookbook.openai.com/)
+
+### Deepseek
+
+<https://chat.deepseek.com/>
+
+### Grok
+
+<https://x.com/i/grok>
+
+By X (formerly Twitter) and Elon Musk.
+
+### Claude
+
+<https://claude.ai>
+
+By Anthropic, known to be better for coding.
+
+TODO: Claude Artifacts
+
+### Google Gemini
+
+<https://gemini.google.com>
+
+#### Google AI Studio - Gemini
+
+<https://aistudio.google.com/>
+
+### Meta AI
+
+<https://www.meta.ai/>
+
+### Venice AI
+
+Uncensored so you can get real answers on important life topics without them lying about differences in IQ, crime rates
+etc.
+
+<https://venice.ai/>
+
+### Perplexity
+
+<https://www.perplexity.ai/>
+
+### Abacus AI
+
+<https://chatllm.abacus.ai/>
+
+Frontend AI backed by the other top LLMs above, as well as video and image generators.
+
+### SQL Chat
+
+- [SQL Chat](https://github.com/sqlchat/sqlchat) - chat-based interface to querying DBs
+
+### Open Source LLMs
+
+#### Ollama
+
+<https://www.ollama.com>
+
+<https://github.com/ollama/ollama>
+
+Ollama Open WebUI + engine which is prompt-based, similar to ChatGPT, ask questions, get responses.
+It's completely local, it doesn't go to the internet.
+
+Engine nodes run on GPUs.
+
+The query response is very slow and prints a few words a second when using CPUs instead of GPUs.
+
+Performance decline after consecutive questions.
+
+Why does the performance degrade after one query?
+
+## Chat LLM Tips
+
+### Features & Differences
+
+Different LLMs have different features and levels of sophistication in different areas.
+
+It can be useful to give the same question to different LLMs and see how different their results are.
+
+### Few Shot Prompt
+
+Give the prompt more context, instructions and examples to improve it's accuracy.
+
+I often also ask more than one question to reduce the number of round trips and time,
+although these should be in the same context and topic to avoid reducing the model accuracy.
+
+### Reliability
+
+LLMs are probabilistic and sometimes hallucinate wrong answers.
+
+You should be double checking answers, but this leads to an obvious problem,
+what is the point of asking something when you are not confident of the answers?
+
+This is safer for simple things which you can immediately verify yourself,
+such as some bit of knowledge you forgot but recognize when you see it,
+or where it is giving you citation source links to web pages that you can click through to double check.
+
+### Safety
+
+It is not safe to just copy and paste code from AI -
+it is often not just sub-optimal but actually contains serious security vulnerabilities such as SQL Injection or
+Code Injection.
+
+Only veteran senior engineers who already know all this stuff and can spot and correct such things should be using AI
+for coding.
+
+You wouldn't for example let an AI handle anything important without knowing what you're doing in that field yourself so
+you can catch mistakes that could have serious real-life consequences.
+
+### Current Knowledge - Internet Search
+
+Since pre-training is expensive and time consuming, LLMs knowledge is often a few months out of date.
+
+More recent LLM models (ChatGPT, Grok, Perplexity)
+now detect and search the internet for knowledge
+not contained in them model in order to deliver answers on things that are more recent,
+such as new TV episodes or current events.
+
+If the model cannot do an internet search for the the new information,
+it will usually tell you that it doesn't contain the knowledge you've asked since it was trained before the relevant
+date.
+
+Models with internet search are more useful
+because you can use them to querying many recent web pages and summarize what you want to know very quickly.
+
+It's also important when querying for things that might change, such as current events,
+such as asking about a given company or technology's capabilities, which could be added or updated any time,
+you want a model that can search and check the latest information on the internet for you.
+
+### Context Windows
+
+Since LLMs are predicting the next word based on tokens,
+start a New Chat for a clean context when switching topics to improve the accuracy and speed of the response
+without the model getting distracted or confused by previous tokens in the context window.
+
+### Thinking vs Non-Thinking Models
+
+Thinking models have better reasoning but they are slower and more expensive to run,
+and therefore usually behind paywall subscriptions in the services below.
+
+So simple knowledge recall a non-thinking model with sufficient and faster.
+
+Thinking models may give better results for complex problem solving, such as debugging code.
+
+There is usually a drop down or button in the web page to switch between the different generations of models,
+some of which are thinking, some of which aren't, so you can tune which one is more appropriate to your use case.
+
+### Memory
+
+You may have noticed that ChatGPT remembers things between chats.
+
+It can save memory about you automatically.
+
+You can also explicitly ask it to remember something important that might be useful to subsequent chats.
+
+### Custom Global Instructions
+
+You can configure an LLM such as ChatGPT in Settings in what traits it should have - ie.
+how to behave, how to speak to you eg. be based, give me straightforward truthful answers without being politically
+correct and without preample, just get to the point and be concise.
+
+You can give it some context on yourself, such as what is should know about you, for how to relate to you.
+
+### Custom GPT
+
+If you find yourself using a prompt preamble a lot,
+you can save it as a custom GPT and that way you don't have to repeat the instructions for the context,
+you can just paste in the unique bit and have it give you the answer with all the instructions and context of how you
+want it to respond.
+
+Think of this as a pre-loaded template prompt preamble stored under a new Custom GPT name.
+
+#### Custom Translator
+
+You can use the Custom GPT feature to create a translator that will break down the translation into it's components
+and which you can then pose follow up questions to help you learn a language.
+
+This is much better than just using an old fashioned flat Google Translate or similar.
+
+### Tool Use
+
+Some LLMs like ChatGPT and Claude recognize when to outsource to tools to get answers,
+such as automatically running a
+[Python](python.md) or
+[Javascript](javascript.md) interpreter and then feeding the result back.
+
+A simple example is a basic multiplication that can be done via memory recall, like we humans do, versus a more complex
+maths calculation that it needs to use a calculator or programming interpreter like Python or Javascript to solve.
+
+### Audio Querying
+
+Pro (paid-for) LLM versions can listen to audio and reply with audio.
+
+Sci-fi is here (and no, Siri and Alexa previously really didn't count).
+
+If you don't want to pay for a pro version you can use [Whisper Apps](#whisper-apps) to pre-load your audio into an LLM
+text box.
+
+### Image Querying
+
+Upload and image, have it transcribe the text and then ask questions about this eg. nutritional label from a product.
+
+Tip: first ask the LLM to transcribe it into text to ensure it is correctly _"seeing"_
+the same thing you are before you dive into asking questions.
+
+In the free tier there is usually a very limited number of image uploads in a time period so use them sparingly.
+
+### Video Querying
+
+You can feed video to AI and query on it, audio responses being most impressive.
+
+At time of writing this is only available on the ChatGPT mobile app
+where you point your mobile camera to things for ChatGPT to see them, called Advanced Voice + Video.
+
+## Text to Speech
+
+- [ElevenLabs](https://elevenlabs.io)
+- [Google Notebook LM](https://notebooklm.google.com) - upload a document and it can generate a podcast episode
+  summarizing it
+
+## Speech to Text
+
+### Wordly.ai
+
+<https://attend.wordly.ai> - I found out about this by a guy sitting next to me getting a real-time translation at
+BTC Prague 2025.
+
+### Otter.ai
+
+<https://otter.ai/>
+
+Proprietary subscription, not bothering with it, used OpenAI Whisper below for free instead.
+
+### Plaud.ai
+
+<https://www.plaud.ai/>
+
+<https://web.plaud.ai/>
+
+Portable devices to record and transcript using AI.
+
+It syncs the meeting transcript online with security compliance, summarizes the meeting and you can then query the LLM
+on the meeting contents.
+
+Can also be used on a computer's mic without a specialized device using the web player linked above.
+
+### Whisper Apps
+
+- SuperWhisper
+- WisprFlow
+- MacWhisper
+
+Tip: bind a hotkey to record audio to text into an LLM box and just correct esoteric proper nouns that don't transcribe
+properly, then hit enter.
+
+### OpenAI Whisper
+
+[:octocat: openai/whisper](https://github.com/openai/whisper)
+
+#### OpenAI Whisper Install
+
+Installs locally, downloads a model and runs on a local video or audio file.
+
+Install on Mac:
+
+```shell
+brew install openai-whisper
+```
+
+or generic Python install
+
+```shell
+pip install openai-whisper
+```
+
+Also requires `ffmpeg` to be installed.
+
+On Mac:
+
+```shell
+brew install ffmpeg
+```
+
+or on Debian / Ubuntu Linux:
+
+```shell
+sudo apt update &&
+sudo apt install ffmpeg -y
+```
+
+#### OpenAI Whisper Run CLI
+
+List of [Available Models](https://github.com/openai/whisper#available-models-and-languages).
+
+Run whisper, using the `--turbo` model (will take a while to download the model the first time):
+
+```shell
+whisper "$file" --turbo
+```
+
+Outputs the text transcript from the video or audio file to stdout,
+as well as creating `.txt`, `.srt`, `.json`, `.tsv` and `.vtt` formatted transcripts for further processing.
+
+#### OpenAI Whisper Run from Python
+
+```python
+import whisper
+
+model = whisper.load_model("turbo")
+result = model.transcribe("audio.mp3")
+print(result["text"])
+```
+
+## Grammar
+
+- [Grammarly](https://app.grammarly.com>)
+- [HemingwayApp](https://hemingwayapp.com)
+
+## Visual
+
+### Image
+
+Image generation AIs - many LLMs can often do this from their prompts, sometimes by outsourcing to another more spefici
+AI to return the image result to you:
+
+- [Grok](https://x.com/i/grok)
+- <https://www.meta.ai/>
+- OpenAI DALL-E 3
+
+### Video
+
+#### Video Clipping
+
+Turn 1 long video in 10 social media shorts:
+
+- [OpusClip](https://www.opus.pro/)
+
+#### Video Generation
+
+- [MidJourney](https://www.midjourney.com/explore?tab=video_top)
+- [InVideo AI](https://invideo.io/) - generate high production quality videos from text prompts
+- [Agent Opus](https://www.opus.pro/agent)
+- [LumaLabs Dream Machine](https://lumalabs.ai/dream-machine) - pics or video
+- [Kawping](https://www.kapwing.com/)
+- [Canva](https://www.canva.com/)
+- ~~Sora by OpenAI~~ - shut down due to being too expensive to run and burning through their VC too quickly
+  - $15M per day costs to generate AI slop videos means that their latest \$100B investment would have been gone in
+    only 2 months and apparently it only generated \$2.1M revenue in total as it was difficult to monetize the videos
+- Veo-2 by Google
+- Luma Ray 3 - high quality and consistency reported
+
+<!-- -->
+
+- Hunyuan
+- Runway Gen-3
+- Alibaba Cloud Wanx
+- Pika
+- Hailuo T2V-01
+
+<!--
+
+#### Translate Video
+
+<https://clideo.com/translate-instagram-video>
+
+#### Translate Video on Instagram
+
+<https://videotranslator.blipcut.com/instagram-video-translator.html>
+
+-->
+
+#### Search Inside Video
+
+- [WayInVideo](https://wayin.ai/tools/find-moments/) - WayinVideo’s Find Moments uses AI to understand your videos like
+  a human editor. Search for objects, scenes, actions, sounds, emotions, people, and more — and jump to any moment
+  instantly
+
+### Presentation
+
+#### Gamma
+
+<https://gamma.app/>
+
+Designs presentations, websites, social media posts etc.
+
+## UI
+
+- [Uizard](https://uizard.io) - <https://app.uizard.io>
+
+## App Generation
+
+Idea to app in seconds.
+
+- [Replit](https://replit.com/)
+- [Lovable](https://lovable.dev/)
+- [Bubble](https://bubble.io/)
+- [Flutterflow](https://www.flutterflow.io/)
+- [Relevance AI](https://relevanceai.com/)
+- [GenSpark](https://www.genspark.ai/)
+- [Manus](https://manus.im/)
+- [MKStack](https://mkstack.xyz) - build Nostr apps from prompt
+
+## Coding
+
+- [Cursor AI](https://www.cursor.com) - separate Editor that requires download
+  - low usage quota in free tier - I used up my limit in 1 hour
+  - reads your files on disk to do work appropriate to your project
+  - calls APIs to use models including OpenAI's ChatGPT, Anthropic Opus, Google Gemini, Claude Sonnet and its own
+    Composer 1 model
+- [GitHub CoPilot](https://github.com/features/copilot)
+  - [CoPilot Chat Cookbook](https://docs.github.com/en/copilot/copilot-chat-cookbook)
+- [TabNine](https://www.tabnine.com) - support for all major IDEs including my favourite [IntelliJ](intellij.md), no longer a free tier
+- [Agentic](https://www.agentic.ai/)
+- [Windsurf](https://windsurf.com/editor)
+
+## RAG - Retrieval Augmented Generation
+
+Combines LLM with referencing an authoritative traditional Knowledge Base before it answers.
+
+<https://www.promptingguide.ai/techniques/rag>
+
+<https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/>
+
+<https://cloud.google.com/use-cases/retrieval-augmented-generation?hl=en>
+
+<https://aws.amazon.com/what-is/retrieval-augmented-generation/>
+
+<https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview>
+
+## Character Generation
+
+- <https://character.ai/>
+
+## Debugging
+
+- [:octocat: robusta-dev/holmesgpt](https://github.com/robusta-dev/holmesgpt)
+
+## Job Search
+
+- [MobiusAI](https://www.mobiusengine.ai/)
+
+## List of AI Tools By Categories
+
+![List of AI Tools by Categories](images/list-of-ai-tools-by-categories.webp)
+
+## Memes
+
+### LLM - How to Plagiarize Like a Pro
+
+![LLM How to Plagiarize Like a Pro](images/orly_llm_how_to_plagiarize_like_a_pro.png)
+
+### Building AI to Replace Humans
+
+![Building AI to Replace Humans](images/orly_building_ai_to_replace_humans.png)
+
+### Fewer Devs, Fewer Managers
+
+![Fewer Devs, Fewer Managers](images/fewer_devs_fewer_managers.jpeg)
+
+## Copying and Pasting from ChatGPT
+
+![Copying and Pasting from ChatGPT](images/orly_copying_pasting_chatgpt.jpeg)
+
+### Say Powered by AI One More Time
+
+![Say Powered By AI One More](images/say_powered_by_AI_one_more_time.jpeg)
+
+### Coding with GPT
+
+Watch out for that quality and not knowing WTF you're doing!
+
+![Coding with GPT](images/orly_book_coding_with_gpt.jpeg)
+
+### My Code Stack Overflow, ChatGPT
+
+![My Code Stack Overflow ChatGPT](images/my_code_stack_overflow_chatgpt.jpeg)
+
+### Speak Softly in House
+
+![Speaking Softly in House](images/ai_speak_softly_in_house.jpeg)
+
+### Chuck Norris
+
+![Check Norris](images/chatgpt_asking_chuck_norris_question.jpeg)
+
+### Your Future Doctor is using ChatGPT to Pass Exams
+
+![Your Future Doctor is using ChatGPT to Pass Exams](images/future_doctor_using_chatgpt_better_exercise_eat_healthy.jpeg)
+
+### I'm a Programmer
+
+![I'm a Programmer](images/im_a_programmer_chatgpt.jpg)
+
+### AI Finger Hack - Inadmissable Evidence
+
+![AI Finger Hack - Inadmissable Evidence](images/ai_finger_hack_inadmissable_evidence.jpeg)
+
+### Sales Guys wants to use Blockchain & AI
+
+![Sales Guys wants to use Blockchain & AI](images/new_project_sales_guy_wants_to_use_blockchain_ai.jpeg)
+
+### Vibe Coding is Easy
+
+![Vibe Coding is Easy](images/vibe_coding_performance_vulnerabilities.jpeg)
+
+### Guys Who Thank ChatGPT
+
+![Guys Who Thank ChatGPT](images/ai_spares_guy_for_thanking_chatgpt.png)
+
+### ChatGPT vs Learning Data Structure and Algorithms
+
+![ChatGPT vs Learning Data Structure and Algorithms](images/chatgpt_vs_data_structure_algorithms.jpeg)
